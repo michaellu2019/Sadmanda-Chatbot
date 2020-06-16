@@ -5,3 +5,9 @@ quotes
 script
 raw_data
 __pycache__
+bot/debug.log
+data/chopped_conversations.json
+data/conversations.json
+data/conversations.txt
+data/conversations_archive.json
+data/movie_conversations.json
