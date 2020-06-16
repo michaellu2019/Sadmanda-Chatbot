@@ -1,4 +1,4 @@
-#Sadmanda Chatbot
+# Sadmanda Chatbot
 
 I trained a Transformer deep learning model on all my text messages in Facebook Messenger to create a chatbot...
 Inspired By: 
@@ -7,5 +7,5 @@ Inspired By:
 - http://complx.me/2016-12-31-practical-seq2seq/
 
 Here's a demo of the results. The bot is the account that first replies with "Michael Lu no of course . wait y r u not spending time with y all your most of there." Its profile picture is a robot with the my crying face T_T...
-![Demo](https://github.com/michaellu2019/Sadmanda-Chatbot/blob/master/demo.png?raw=true)
+![Demo](https://raw.githubusercontent.com/michaellu2019/Sadmanda-Chatbot/master/assets/demo.PNG)
 
