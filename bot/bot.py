@@ -128,9 +128,9 @@ def facebook_chat(mode = 'comment'):
 			sleep(random() * 10 + 5)
 	else:
 		print('Going to Messenger...')
-		friend_chat_path = ''
-		driver.get(driver.current_url + friend_chat_path)
-		sleep(random() * 1.5)
+		friend_chat_path = input('Enter the URL for your friend\'s Messenger chat: ')
+		driver.get(friend_chat_path)
+		sleep(random() * 1.5 + 7)
 
 		num_msgs = 0
 		last_msg = ''
@@ -197,5 +197,6 @@ def console_chat():
 			print('Error...')
 
 if __name__ == '__main__':
-	facebook_chat(mode = 'comment')
+	mode = input('Choose a bot mode for Facebook (comment or chat): ').lower()
+	facebook_chat(mode = mode)
 	# console_chat()
